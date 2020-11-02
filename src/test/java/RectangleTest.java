@@ -35,4 +35,5 @@ public class RectangleTest {
         assertTrue(Rectangle.getAll().contains(firstRectangle));
         assertTrue(Rectangle.getAll().contains(secondRectangle));
     }
+
 }

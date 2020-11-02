@@ -21,4 +21,10 @@ public class CubeTest {
         Cube cube = new Cube(rectangle);
         assertEquals(27000,cube.getVolume());
     }
+    @Test
+    public void area_returnsTheAreaOfTheRectangle(){
+        Rectangle rectangle = new Rectangle(30,30);
+        Cube cube = new Cube(rectangle);
+        assertEquals(5400,cube.getSurfaceArea());
+    }
 }
